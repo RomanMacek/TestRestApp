@@ -4,3 +4,6 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
  Packages.config
 	seznam nugetu, ktere jsou potreba pro aplikaci
 	(c:\WorkSoukromy\TestRestApp\ContactManager\packages.config)
+
+
+Testovaci zmena kvuli GITu a vetveni
