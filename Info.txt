@@ -16,12 +16,7 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
 	- nastavit si nejake default nastaveni (odsazeni, konstruktor na zacatku classy ....)
 
 
-Zmena na ReadWriteAPI vetvi
-Zmena na ReadWriteAPI vetvi 2
 
-
-Testovaci zmena kvuli GITu a vetveni
-Testovaci zmena kvuli GITu a vetveni 2
 
 Merge c:01
 - stojim na master
