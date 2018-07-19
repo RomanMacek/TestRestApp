@@ -17,3 +17,4 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
 
 
 Zmena na ReadWriteAPI vetvi
+Zmena na ReadWriteAPI vetvi 2
