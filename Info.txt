@@ -1,0 +1,6 @@
+https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
+
+
+ Packages.config
+	seznam nugetu, ktere jsou potreba pro aplikaci
+	(c:\WorkSoukromy\TestRestApp\ContactManager\packages.config)
