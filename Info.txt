@@ -30,3 +30,6 @@ Rebase
 - z aktualni vetve na ktere stojim muzu REBASE do jine vetve na ktere aktualne NESTOJIM
 - vytvori se tolik "push", kolik jich je na dane vetvi, kterou chci dostat do mastera + 1
   (to odpovida tomu, ze se delaji kopie vsech commitu)
+
+
+  testovaci zmena na master
