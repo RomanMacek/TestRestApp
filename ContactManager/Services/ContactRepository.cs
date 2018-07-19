@@ -8,8 +8,39 @@ namespace ContactManager.Services
 {
     public class ContactRepository
     {
+        private const string CacheKey = "ContactStore";
+
+        public ContactRepository()
+        {
+            var ctx = HttpContext.Current;
+            if (ctx.Cache[CacheKey] == null)
+            {
+                var contacts = new Contact[]
+                {
+                    new Contact()
+                    {
+                        Id = 1,
+                        Name = "Glenn Block"
+                    },
+                    new Contact()
+                    {
+                        Id = 2,
+                        Name = "Dan Roth"
+                    }
+                };
+                ctx.Cache[CacheKey] = contacts;
+            }
+
+        }
+
         public Contact[] GetAllContacts()
         {
+            var ctx = HttpContext.Current;
+            if (ctx != null)
+            {
+                return ((Contact[])ctx.Cache[CacheKey]);
+            }
+
             return new Contact[]
             {
                 new Contact()
@@ -23,6 +54,28 @@ namespace ContactManager.Services
                     Name = "Dan Roth"
                 }
             };
+        }
+
+        public bool SaveContact(Contact contact)
+        {
+            var ctx = HttpContext.Current;
+            if (ctx == null)
+            {
+                return false;
+            }
+
+            try
+            {
+                var currentData = ((Contact[])ctx.Cache[CacheKey]).ToList();
+                currentData.Add(contact);
+                ctx.Cache[CacheKey] = currentData.ToArray();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
+            return true;
         }
     }
 }
