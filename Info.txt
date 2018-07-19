@@ -16,8 +16,6 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
 	- nastavit si nejake default nastaveni (odsazeni, konstruktor na zacatku classy ....)
 
 
-
-
 Merge c:01
 - stojim na master
 - chci do master zmergeovat druhou vetev "ReadWriteAPI"
