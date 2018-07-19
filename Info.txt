@@ -21,3 +21,6 @@ Merge c:01
 - stojim na master
 - chci do master zmergeovat druhou vetev "ReadWriteAPI"
 = vysledek: Merge provedl sjednoceni vsech zmen (z vice commitu) z vetve "ReadWriteAPI" do jednoho merge bodu na vetvi "master"
+
+Rebase
+- z aktualni vetve na ktere stojim muzu REBASE do jine vetve na ktere aktualne NESTOJIM
