@@ -15,7 +15,6 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
 	?? Resharper
 	- nastavit si nejake default nastaveni (odsazeni, konstruktor na zacatku classy ....)
 
-	AAAA
 
 Merge c:01
 - stojim na master
