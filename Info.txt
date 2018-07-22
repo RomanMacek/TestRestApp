@@ -1,4 +1,6 @@
 https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
+https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing
+
 
 
  Packages.config
@@ -8,8 +10,8 @@ https://docs.microsoft.com/cs-cz/aspnet/web-api/overview/older-versions/build-re
 
 	??
 	- co vse obsahuje "HttpContext.Current"
-	- rozdil mezi Session a Cache (ctx.Cache[CacheKey] = currentData.ToArray();) 
-		pri uschovne dat
+	- auto mappery (http://automapper.org/)
+
 	-
 
 	?? Resharper
